@@ -1,0 +1,68 @@
+.board {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(7, 69, 7);
+}
+
+.buttons {
+	height: 80vh;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+  height: 8vh;
+	width: 12vw;
+	border: 2px solid black;
+	background: #222;
+	color: #f4f4f4;
+	margin: 10px;
+	padding: 2vh;
+	cursor: pointer;
+}
+
+input {
+	text-align: center;
+  padding: 0px;
+  margin: 10px;
+	width: 12vw;
+	height: 6vh;
+	border: 2px solid black;
+	background: #222;
+	color: #f4f4f4;
+	cursor: pointer;
+}
+
+.dice {
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bottomButtons {
+	height: 25vh;
+	padding: 1vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+	.buttons {
+		height: 85vh;
+		left: 35%;
+	}
+	.dices {
+		height: 25vh;
+	}
+	input {
+		width: 25vw;
+	}
+}

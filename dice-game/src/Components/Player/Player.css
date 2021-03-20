@@ -1,0 +1,38 @@
+.player {
+  width: 27vw;
+  height: 66vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8vh 5vw 8vw 5vh;
+  color: black;
+}
+
+.player1 {
+  background-color: rgba(236, 240, 241, 0.4);
+}
+  
+.player2 {
+  background-color: rgba(189, 195, 199, 0.4);
+}
+  
+.currentPlayer {
+  width: 12vw;
+  height: 20vh;
+  /* color: black; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;  
+}
+
+@media screen and (max-width: 500px) {
+  .player1, .player2 {
+      font-size: x-small;
+  }
+  .current {
+    font-size: xx-small;
+    margin: auto auto;
+  }
+}
